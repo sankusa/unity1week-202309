@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1612259164445167601
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unevenness 2
+  m_Shader: {fileID: -6465566751694194690, guid: bbe962deb31ca0f4c9329596fb4aca5e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 20a5d0a5c00d1104887b73ccd84da12e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_13464a86a8a74f8097fcb20a1fe6b2ec: 5.4
+    - Vector1_59ea95a866a24330b292994cec9d37ab: 5
+    - Vector1_6c8f5b28fd934146a5db880efd21e056: 0.1
+    - Vector1_7a5eecc4d27848c192c62548d85d57c9: 3.98
+    - Vector1_8b103f11f7ec43b8a539733af49511a7: 118.5
+    - Vector1_a1952c14081c46419bc41ea04ec7ba87: 17.61
+    - Vector1_c6ad9447cd2b46e2a886052454b2b59f: 1
+    - Vector1_eba951393a1f4550b323affe7304a607: 89.9
+    - Vector1_faa77e931ee64bb5bb3dcec562f5345b: 0.47
+    - _FresnelEffect: 0.1
+    m_Colors:
+    - Color_ad8b12520c544a9e809447de22e5aebf: {r: 2.2488317, g: 1.7120014, b: 1.2411004, a: 0}
+  m_BuildTextureStacks: []

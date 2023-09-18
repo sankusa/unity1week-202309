@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b79df38d0fa21844b6253b2f72321af, type: 3}
+  m_Name: MessageWindowTable
+  m_EditorClassIdentifier: 
+  datas:
+  - category: 10
+    className: GreyEngine.MessageWindow.MessageWindow
+    methodName: Close
+    argTypeNames: []
+    argNames: []
+    returnTypeName: System.Void
+    summary: "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A\u7D42\u4E86"
+    customMenuPath: "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A\u7D42\u4E86"
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - category: 10
+    className: GreyEngine.MessageWindow.MessageWindow
+    methodName: DisplayMessage
+    argTypeNames:
+    - System.String
+    - System.String
+    argNames:
+    - speaker
+    - message
+    returnTypeName: System.Void
+    summary: "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A {0} \"{1}\""
+    customMenuPath: "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A"
+    color: {r: 0, g: 0, b: 0, a: 0}
+  hideInRegister: 0
