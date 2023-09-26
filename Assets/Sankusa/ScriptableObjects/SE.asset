@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b877b5e440facf849960f5335c5a96f2, type: 3}
+  m_Name: SE
+  m_EditorClassIdentifier: 
+  forceToMono: 1
+  loadType: 0
+  soundDataList:
+  - id: SE_Bubble
+    clip: {fileID: 8300000, guid: 0389d278e7c74674aaaf3a7d5dc278b6, type: 3}
+    volumeType: 1
+    volume: 1
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 0.6
+    start: 0.2797476
+    end: 0.41176456
+  - id: SE_CrashBk
+    clip: {fileID: 8300000, guid: 752b41bffeb7a86409052bef9ccb5d3e, type: 3}
+    volumeType: 0
+    volume: 1
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 0.35
+    start: 0.024927327
+    end: 1
+  - id: SE_Damage
+    clip: {fileID: 8300000, guid: 6a25e054491bbd7469543943ce2998bd, type: 3}
+    volumeType: 0
+    volume: 0.3
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 1
+    start: 0.16826923
+    end: 0.99999994
+  - id: SE_Eat
+    clip: {fileID: 8300000, guid: 996b057644b82124186123d63467e058, type: 3}
+    volumeType: 0
+    volume: 0.5
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 0.8
+    start: 0
+    end: 1
+  - id: SE_Crash
+    clip: {fileID: 8300000, guid: 9549ef5b77d285246b8a93ecc3d76154, type: 3}
+    volumeType: 0
+    volume: 1
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 0.5
+    start: 0.18308425
+    end: 0.99999994
+  - id: SE_Achive
+    clip: {fileID: 8300000, guid: c180313558a46134789576d1ceaa769d, type: 3}
+    volumeType: 0
+    volume: 1
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 1
+    start: 0
+    end: 1
+  - id: SE_GameOver
+    clip: {fileID: 8300000, guid: e28692bbdb94715489d96fdb8ad18f00, type: 3}
+    volumeType: 0
+    volume: 0.5
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1.0524902
+        value: 1
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6182796
+        value: -0.14818424
+        inSlope: -2.0293496
+        outSlope: -2.0293496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    pitch: 1
+    start: 0
+    end: 1

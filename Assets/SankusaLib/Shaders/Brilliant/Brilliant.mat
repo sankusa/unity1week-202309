@@ -2,24 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Brilliant
   m_Shader: {fileID: -6465566751694194690, guid: 812414547516a95459a53a098a08bd05, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -39,16 +35,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
-    - Vector1_fd845c40d2db4167816223e55e424e65: 1
-    - _Fineness: 18.5
-    - _RotateSpeed: 0.14
-    - _ScrollSpeed: 0.16
-    - _Strength: 3.74
+    - Vector1_fd845c40d2db4167816223e55e424e65: 0.23
+    - _Fineness: 197.7
+    - _RotateSpeed: 0.07
+    - _ScrollSpeed: 0
+    - _Strength: 0.5
     - _TimeSale: 0.5
     m_Colors:
-    - _Color: {r: 0.23874155, g: 0.3490566, b: 0.24681765, a: 1}
+    - _Color: {r: 0.5451166, g: 0.5444999, b: 0.7169812, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1263918384220205198
 MonoBehaviour:

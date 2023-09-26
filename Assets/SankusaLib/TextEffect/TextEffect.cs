@@ -34,7 +34,7 @@ namespace SankusaLib {
 
         void Start() {
             onStart.Invoke();
-            transform.DOMove(transform.position + moveOffset, duration)
+            transform.DOLocalMove(transform.localPosition + moveOffset, duration)
                     .SetEase(moveEase).OnComplete(() => {
                         onEnd.Invoke();
                         Destroy(gameObject);

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b877b5e440facf849960f5335c5a96f2, type: 3}
+  m_Name: BGM
+  m_EditorClassIdentifier: 
+  forceToMono: 1
+  loadType: 2
+  soundDataList:
+  - id: BGM1
+    clip: {fileID: 8300000, guid: 552f6297dc1a1f04ea4615351a9e45da, type: 3}
+    volumeType: 0
+    volume: 1
+    volumeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    pitch: 1
+    start: 0
+    end: 1
